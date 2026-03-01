@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left{
+    display: inline-block;
+    width: 60vw;
+    color: rgba(93, 93, 125, 1);
+    text-align: justify;
+    margin-top: 20%;
+    padding-left: 136px ;
+}
+
+.container-right{
+    display: inline-block;
+    background-color:rgba(93, 93, 125, 0.16);
+    text-align: center;
+    width: 40vw;
+    height: 900px;
+    word-spacing: 70px;
+    font-size: 28px;
+    color:rgba(93, 93, 125, 1) ;
+    transition: 0.5s;
+    position: absolute;
+}
+.in-container-1:hover{
+    color: black;
+}
+
+.in-container-1{
+    cursor: pointer;
+}
+
+.work-color{
+    opacity: 40% !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.work-color:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.Logo-1{
+    position: relative;
+    width: 456px;
+    height: 561px;
+    margin-top: 150px ;
+    right: 220px;
+}
+
+
+h1{
+    margin: 100px 303px 0 0;
+    font-weight: 400;
+    size: 70px;
+    font-size: 63px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    width: 325px;
+    
+}
+
+p{
+    font-weight: 400px;
+    size: 28px;
+    line-height: 48px;
+    font-size: 28px;
+    width: 540px;
+    margin: 15px 0;
+    padding-top: 15px;
+    opacity: 60%;
+}
+
+button{
+    width: 269px;
+    height: 62px;
+    border-radius: 35px ;
+    font-weight: 400;
+    size: 24px;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(148, 153, 234, 1);
+    cursor: pointer;
+    border: none;
+    border-width: 5px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color:  rgba(148, 153, 234, 1);
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+header {
+    margin: 24px 0 0 57px;
+
+}
+@media screen and (max-width: 900px) {
+    
+    .container-left{
+        display: block;
+        width: 100vw;
+        height: 30vh;
+        padding-right: 27px;
+        padding-left: 20px;
+    }  
+
+    .container-right{
+        display: block;
+        height: auto;
+        width: 100vw;
+        height: 50vh;
+        position: static;
+    }
+    
+    h1{
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center ;
+        width: auto;
+        margin: 58px 50px 0 50px ;
+    }
+
+    p{
+        text-align: center;
+        width: auto;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 14px 15px 29px;
+    }
+
+    button{
+        margin: 0 auto;
+        display: block;
+
+
+
+    }
+
+    .Logo-1{
+        display: block;
+        position: static;
+        width: 288px;
+        height: 345px;
+        padding: 33px;
+        margin-left: 30px;
+          
+       
+    
+       
+       
+    }
+
+    .container-1{
+        display: none;
+    }
+    }
